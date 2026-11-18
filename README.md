@@ -29,6 +29,8 @@ Galerija ima dva neprekidna reda u suprotnim smerovima, unutar zajedničkog kont
 
 Implementirana je samo početna stranica. Glavni meni vodi na njene sekcije; u zaglavlju je „Pozovite nas” umesto „Upis”. Tokom prezentacije klijentu `PresentationLink` uklanja izlazne adrese sa svih linkova koji nisu fragmenti ove početne, uključujući telefon i e-mail. Oni zadržavaju izgled i imaju `aria-disabled`; ne otvaraju druge sajtove, aplikacije ili tabove. Nisu kreirane druge stranice, Sanity integracija ili kontakt forma. Pri izradi ostalih stranica zameniti prezentacione linkove konačnim odredištima iz PRD-a i povezati objave i galeriju sa CMS-om.
 
+Mobilno zaglavlje prikazuje samo logo i burger sa zaobljenjem 15 px. „Pozovite nas” je u otvorenom mobilnom meniju umesto broja telefona, na 90% širine ekrana. Naslov objekata je „Dva prostora. Ista ljubav, ista pažnja.”
+
 Radna verzija ima `noindex, nofollow`. Pre javnog lansiranja potvrditi materijale i podatke, završiti ostatak dogovorenog obima i zameniti ovu postavku produkcionim SEO podacima.
 
 ## Materijali za potvrdu
