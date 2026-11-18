@@ -65,6 +65,8 @@ Ovaj pregled prethodi sledećim korekcijama hijerarhije dugmadi i uklanjanju kon
 
 ## Sačuvani pregledi
 
+Završni mobilni CTA je proširen na 100% širine tekstualnog dela kontakt bloka. Na 360 i 390 px izmerena je jednaka širina dugmeta i sadržaja. „Sve novosti i priče” je ispod svih kartica i centrirano na svih pet ciljnih širina; stari uvodni tekst iz zaglavlja novosti je uklonjen. Nema horizontalnog preliva ni JavaScript grešaka, a lint i build prolaze. Pregledi novosti i kontakt sekcije su osveženi.
+
 Poslednja korekcija mobilnog zaglavlja proverena je direktno u aktivnoj razvojnoj verziji na svih pet ciljnih širina. Na mobilnim širinama zaglavlje sadrži logo i burger, burger ima 15 px zaobljenje, a meni sadrži primarni CTA širine tačno 90% ekrana, bez prikaza ranijeg broja telefona. Otvaranje, Escape, povratak fokusa, Kontakt navigacija i prezentaciono isključen poziv rade. Desktop CTA ostaje vidljiv. Novi naslov „Dva prostora. Ista ljubav, ista pažnja.” provereno je ispisan. Nema horizontalnog preliva ni JavaScript grešaka; lint i build prolaze. Razvojni server je ponovo pokrenut da bi prestao da prikazuje zastareli CSS.
 
 - [Otvoren mobilni meni](previews/mobile-menu-390.png)

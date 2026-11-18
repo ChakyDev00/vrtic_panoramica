@@ -140,6 +140,7 @@ summary::-webkit-details-marker { display: none; }
 .news-read .icon { width: 16px; height: 16px; }
 .news-read:hover { color: var(--teal-dark); }
 .news-read:hover > span { background: var(--teal); border-color: var(--teal); color: var(--ink); transform: rotate(-30deg); }
+.news-bottom { margin-top: 40px; text-align: center; }
 .archive-note { font-size: 11px; margin-top: 25px; color: #607063; }
 .about-section { background: #eaf0e2; }
 .about-section .eyebrow, .gallery-section .eyebrow { color: #086a72; }
@@ -365,6 +366,8 @@ summary::-webkit-details-marker { display: none; }
 
 /* Phones */
 @media (max-width: 600px) {
+.contact-copy > .button { width: 100%; }
+.news-bottom .text-link { font-size: 14px; }
   html { scroll-padding-top: 85px; } .draft-bar { font-size: 10px; } .draft-bar > .container { min-height: 28px; } .draft-bar a { font-size: 9px; gap: 4px; } .draft-bar a > .icon { display: none; }
   .header-inner { min-height: 80px; gap: 12px; } .brand { width: 172px; } .header-cta { font-size: 13px; padding: 11px 16px; min-height: 42px; gap: 3px; } .header-cta > .icon:last-child { width: 16px; height: 16px; margin-left: 3px; } .menu-toggle { height: 39px; width: 39px; flex-shrink: 0; } .menu-toggle .icon { height: 20px; width: 20px; } .is-compact .brand { width: 160px; } .is-compact .header-inner { min-height: 70px; } .mobile-nav:not([hidden]) { padding-inline: 20px; }
   .hero { padding: 35px 0 63px; } .hero-eyebrow { font-size: 10px; letter-spacing: 1.1px; margin-bottom: 22px; gap: 7px; } .hero-eyebrow > span { width: 5px; height: 5px; }

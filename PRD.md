@@ -511,3 +511,9 @@ Ove novije korisnikove odluke imaju prednost u odnosu na ranije predloge:
 - Desktop zaglavlje zadržava dugme „Pozovite nas”.
 - Naslov sekcije objekata glasi „Dva prostora. Ista ljubav, ista pažnja.”
 - Na hover linka „Pročitajte priču” u karticama novosti kružić sa strelicom koristi primarnu tirkiznu `#25B4BC`, a tekst tamniju tirkiznu.
+
+## 22. Završni CTA i odredište svih novosti
+
+- Na telefonu završno dugme „Pozovite nas” zauzima 100% raspoložive širine unutar tekstualnog dela kontakt bloka.
+- „Sve novosti i priče” se prikazuje ispod svih kartica novosti, centrirano i na telefonu i na računaru.
+- Uvodni tekst „Iz vrtića, za roditelje, za sve naše male i velike korake.” iznad tog dugmeta se uklanja.

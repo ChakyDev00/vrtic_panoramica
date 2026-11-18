@@ -59,9 +59,9 @@ export default function Home() {
       </div></section>
 
       <section id="novosti" className="section news-section" aria-labelledby="news-title"><div className="container">
-        <div className="section-heading" data-reveal><div><span className="eyebrow">Iz našeg malog sveta</span><h2 id="news-title">Priče koje vredi<br className="desktop-break" /> podeliti<span className="accent-dot">.</span></h2></div><div className="section-heading-aside"><p>Iz vrtića, za roditelje,<br />za sve naše male i velike korake.</p><TextLink href={`${official}/category/vrtic-panoramica/`}>Sve novosti i priče</TextLink></div></div>
+        <div className="section-heading" data-reveal><div><span className="eyebrow">Iz našeg malog sveta</span><h2 id="news-title">Priče koje vredi<br className="desktop-break" /> podeliti<span className="accent-dot">.</span></h2></div></div>
         <div className="news-grid">{news.map((item, index) => <article className="news-card" key={item.href} data-reveal style={{ "--reveal-delay": `${index * 90}ms` } as CSSProperties}><PresentationLink href={`${official}${item.href}`} className="news-image" aria-label={`Pročitajte priču: ${item.title}`}><Image src={`/images/panoramica/${item.image}.webp`} alt={item.alt} width={580} height={375} sizes="(max-width: 600px) 90vw, (max-width: 750px) 45vw, 380px" /><span className="news-category">{item.category}</span></PresentationLink><div className="news-body"><time dateTime={item.date}>{item.displayDate}</time><h3><PresentationLink href={`${official}${item.href}`}>{item.title}</PresentationLink></h3><p>{item.description}</p><PresentationLink className="news-read" href={`${official}${item.href}`} aria-label={`Pročitajte: ${item.title}`}>Pročitajte priču <span><Icon name="arrow" /></span></PresentationLink></div></article>)}</div>
-        <p className="archive-note">Izabrane priče iz arhive Panoramice.</p>
+        <div className="news-bottom"><TextLink href={`${official}/category/vrtic-panoramica/`}>Sve novosti i priče</TextLink><p className="archive-note">Izabrane priče iz arhive Panoramice.</p></div>
       </div></section>
 
       <section id="o-vrticu" className="section about-section" aria-labelledby="about-title"><div className="container about-grid">
