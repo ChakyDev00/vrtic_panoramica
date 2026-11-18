@@ -11,6 +11,16 @@ npm run dev
 
 Otvori http://localhost:3000.
 
+## GitHub Pages
+
+Produkcijska adresa je https://chakydev00.github.io/vrtic_panoramica/.
+
+`npm run build` izvozi sajt u `out/` sa prefiksom `/vrtic_panoramica`, završnom kosom crtom i isključenom serverskom optimizacijom slika. Komponenta `SiteImage` dodaje isti prefiks lokalnim slikama u zaglavlju, sadržaju, galeriji i uvećanom prikazu; sam `basePath` ne menja njihove `src` putanje. CSS, JavaScript i lokalni fontovi koriste Next.js prefiks.
+
+Cache Components i Partial Prefetching isključeni su samo za produkcioni izvoz. `npm run dev` zadržava razvoj na http://localhost:3000/ bez prefiksa. Produkcioni `out/` pregledati običnim HTTP serverom pod `/vrtic_panoramica/`; `next start` nije namenjen statičkom izvozu.
+
+U Settings → Pages izabrati **Source: GitHub Actions**. Nakon commit-a i push-a svih izmena na `main`, `.github/workflows/deploy-pages.yml` automatski pokreće instalaciju, lint, build i objavu. Workflow ne ubacuje dodatnu konfiguraciju u `next.config.ts`, jer se ona već nalazi u projektu. Dodatne tajne nisu potrebne.
+
 ## Provere
 
 ```sh

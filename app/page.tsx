@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from "./components/site-image";
 import type { CSSProperties, ReactNode } from "react";
 import { Header } from "./components/header";
 import { Gallery } from "./components/gallery";

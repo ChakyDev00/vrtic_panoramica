@@ -1,6 +1,6 @@
 "use client";
 
-import Image from "next/image";
+import Image from "./site-image";
 import { useEffect, useRef, useState } from "react";
 import { Icon } from "./icons";
 import { PresentationLink } from "./presentation-link";
